@@ -1,3 +1,9 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
-    <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="Login" password="false" />
+    <ui:VisualElement name="Background" style="height: 1920px; width: 1080px; background-color: rgb(225, 236, 250); align-items: center; justify-content: center;">
+        <ui:VisualElement style="background-color: rgb(83, 213, 229); height: 395px; width: 312px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; align-items: center; justify-content: center;">
+            <ui:Label text="Registation" display-tooltip-when-elided="true" style="width: 110px; font-size: 20px; color: rgb(255, 0, 87); position: absolute; top: 20px; height: 28px; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=6f92acba810c86d47ada5937f83cec8f&amp;type=3#NotInter-Regular&apos;); -unity-font-style: bold;" />
+            <ui:Button text="Login" display-tooltip-when-elided="true" style="background-color: rgb(255, 228, 97); height: 64px; width: 250px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; align-items: stretch; justify-content: flex-start; font-size: 16px; color: rgb(0, 0, 0); -unity-font-style: bold; white-space: nowrap; transform-origin: center;" />
+            <ui:VisualElement style="height: 64px; width: 64px; -unity-background-image-tint-color: rgb(255, 255, 255); background-image: url(&apos;project://database/Assets/Buy%20Icon.svg?fileID=7388822144124034973&amp;guid=0d490007322164d4db7e54e4b99ecbc6&amp;type=3#Buy Icon&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
 </ui:UXML>
